@@ -1,4 +1,3 @@
-var src;
 addDoggo = (url) =>
 {
 let newdoggo=document.createElement("div");
@@ -13,7 +12,7 @@ function display(data){
     return data;
   }
 const futureData = fetch('https://dog.ceo/api/breeds/image/random');
-futureData.then(display).then( abc=>randomdoggo.src=abc.message);
+futureData.then(display).then(abc=>randomdoggo.src=abc.message);
 }
 deleteAllDoggos = () =>
 {
