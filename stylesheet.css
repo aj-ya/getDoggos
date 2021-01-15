@@ -31,6 +31,7 @@ body{
     font-family: JetBrainsMonoBold;
     src: url(JetBrainsMono-Bold.ttf);
 }
+@media only screen and (min-width:992px){
 button.button-doggo{
     width: 200px;
     margin: 10px 20px 0px 20px;
@@ -41,6 +42,13 @@ button.button-doggo{
     color: thistle;
     border: 3px solid thistle ;
     background-color: transparent;
+}
+.deleteAllDoggo{
+    float:right;
+}
+.addDoggo{
+    float:left;    
+}
 }
 button.button-doggo:hover{
     background-color:thistle;
@@ -58,12 +66,8 @@ button.button-doggo:focus{
 .github-profile{
     float: right;
 }
-.deleteAllDoggo{
-    float:right;
-}
-.addDoggo{
-    float:left;    
-}
+
+
 .doggo-box{
     background-color: khaki;
     display: inline-flex;
@@ -98,4 +102,33 @@ kbd {
 #clearboth-after{
     height: 40px;
     clear: both;
+}
+@media only screen and (max-width:600px)
+{
+    button.button-doggo{
+        width: 200px;
+        margin: 10px 20px 0px 20px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 40px;
+        font-size: x-large;
+        color: thistle;
+        border: 3px solid thistle ;
+        background-color: transparent;
+    }
+    .deleteAllDoggo{
+        clear:both;
+    }
+    .addDoggo{
+        clear:both;    
+    }
+    header{
+        font-size: xx-small;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .container{
+        align-items: center;
+    }
 }
