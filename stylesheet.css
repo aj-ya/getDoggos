@@ -1,38 +1,38 @@
-*{
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 *,
 *:after,
-*:before{
-    box-sizing: inherit;
+*:before {
+  box-sizing: inherit;
 }
-header{
-    text-align: center;
-    height: 34px;
-    font-weight: bold;
-    font-family: monospace;
-    padding-top: 2px;
-    padding-right: 2px;
-    background-color: rgb(255, 235, 205);
+header {
+  text-align: center;
+  height: 34px;
+  font-weight: bold;
+  font-family: monospace;
+  padding-top: 2px;
+  padding-right: 2px;
+  background-color: rgb(255, 235, 205);
 }
-h1{
-    font-size: 64px;
-    font-family: JetBrainsMonoBold;
-    font-weight: bolder;
-    text-align: center;
-    background-color: rgb(216, 191, 216);
+h1 {
+  font-size: 64px;
+  font-family: JetBrainsMonoBold;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(216, 191, 216);
 }
-body{
-    background-color:rgb(0, 0, 0);
+body {
+  background-color: rgb(0, 0, 0);
 }
-@font-face{
-    font-family: JetBrainsMonoBold;
-    src: url(JetBrainsMono-Bold.ttf);
+@font-face {
+  font-family: JetBrainsMonoBold;
+  src: url(JetBrainsMono-Bold.ttf);
 }
-@media only screen and (min-width:992px){
-button.button-doggo{
+@media only screen and (min-width: 992px) {
+  button.button-doggo {
     width: 200px;
     margin: 10px 20px 0px 20px;
     height: 40px;
@@ -40,95 +40,90 @@ button.button-doggo{
     border-radius: 40px;
     font-size: x-large;
     color: thistle;
-    border: 3px solid thistle ;
+    border: 3px solid thistle;
     background-color: transparent;
-}
-.deleteAllDoggo{
-    float:right;
-}
-.addDoggo{
-    float:left;    
-}
-}
-button.button-doggo:hover{
-    background-color:thistle;
-    color:black;
-    border: 1px solid thistle ;
-}
-button.button-doggo:active{
-    background-color: rgb(228, 94, 228);
-    color: black;
-    border: 1px solid rgb(228, 94, 228);
-}
-button.button-doggo:focus{
-    outline: none;
-}
-.github-profile{
+  }
+  .deleteAllDoggo {
     float: right;
+  }
+  .addDoggo {
+    float: left;
+  }
 }
-
-
-.doggo-box{
-    background-color: khaki;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 240px;
-    height: 240px;
-    padding: 5px;
-    margin: 10px;
+button.button-doggo:hover {
+  background-color: thistle;
+  color: black;
+  border: 1px solid thistle;
 }
-#container{
-    margin-top: 80px;
-    clear: both;
-    display: inline-flex;
-    flex-flow: row wrap-reverse;
-    justify-content: center;
+button.button-doggo:active {
+  background-color: rgb(228, 94, 228);
+  color: black;
+  border: 1px solid rgb(228, 94, 228);
+}
+button.button-doggo:focus {
+  outline: none;
+}
+.github-profile {
+  float: right;
+}
+.doggo-box {
+  background-color: khaki;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 240px;
+  height: 240px;
+  padding: 5px;
+  margin: 10px;
+}
+#container {
+  margin-top: 80px;
+  clear: both;
+  display: inline-flex;
+  flex-flow: row wrap-reverse;
+  justify-content: center;
 }
 /*from MDN https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd */
 kbd {
-    margin-top: 5px;
-    background-color: #eee;
-    border-radius: 3px;
-    border: 1px solid #b4b4b4;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-    color: #333;
-    display: inline-block;
-    font-weight: 700;
-    line-height: 1;
-    padding: 2px 4px;
-    white-space: nowrap;
-   }
-#clearboth-after{
-    height: 40px;
-    clear: both;
+  margin-top: 5px;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
 }
-@media only screen and (max-width:600px)
-{
-    button.button-doggo{
-        width: 200px;
-        margin: 10px 20px 0px 20px;
-        height: 40px;
-        padding: 10px;
-        border-radius: 40px;
-        font-size: x-large;
-        color: thistle;
-        border: 3px solid thistle ;
-        background-color: transparent;
-    }
-    .deleteAllDoggo{
-        clear:both;
-    }
-    .addDoggo{
-        clear:both;    
-    }
-    header{
-        font-size: xx-small;
-    }
-    h1{
-        font-size: 32px;
-    }
-    .container{
-        align-items: center;
-    }
+#clearboth-after {
+  height: 430px;
+  clear: both;
+}
+@media only screen and (max-width: 600px) {
+  button.button-doggo {
+    width: 200px;
+    margin: 10px 20px 0px 20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: x-large;
+    color: thistle;
+    border: 3px solid thistle;
+    background-color: transparent;
+  }
+  .deleteAllDoggo {
+    clear: both;
+  }
+  .addDoggo {
+    clear: both;
+  }
+  header {
+    font-size: xx-small;
+  }
+  h1 {
+    font-size: 32px;
+  }
 }
