@@ -56,7 +56,7 @@ button.button-doggo:hover {
   border: 1px solid thistle;
 }
 button.button-doggo:active {
-  background-color: rgb(228, 94, 228);
+  background-color: rgba(228, 94, 228,);
   color: black;
   border: 1px solid rgb(228, 94, 228);
 }
@@ -99,7 +99,7 @@ kbd {
   white-space: nowrap;
 }
 #clearboth-after {
-  height: 430px;
+  height: 30px;
   clear: both;
 }
 @media only screen and (max-width: 600px) {
