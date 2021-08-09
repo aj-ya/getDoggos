@@ -80,7 +80,7 @@ button.button-doggo:focus {
   margin-top: 80px;
   clear: both;
   display: inline-flex;
-  flex-flow: row wrap-reverse;
+  flex-flow: row wrap;
   justify-content: center;
 }
 /*from MDN https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd */
